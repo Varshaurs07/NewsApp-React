@@ -31,7 +31,7 @@
 ![Home](./src/components/images/home.png)
 
 ### 💼 Business News  
-![Business](./src/components/images/business.png)
+![Business](./src/components/images/bussiness.png)
 
 ### 🎬 Entertainment News  
 ![Entertainment](./src/components/images/entertainment.png)
