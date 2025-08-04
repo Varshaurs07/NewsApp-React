@@ -1,37 +1,46 @@
-# NewsApp-React
+# 📰 NewsApp
 
-This is a React-based news application built using the [Create React App](https://github.com/facebook/create-react-app) tool.
-
----
-
-## Getting Started
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.  
-The page will reload when you make changes.  
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in interactive watch mode.  
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.  
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-### `npm run deploy`
-
-Builds and deploys the app to GitHub Pages using `gh-pages`.
+**NewsApp** is a responsive React web application that displays the latest headlines from various news categories using the [News API](https://newsapi.org/). Built with `React.js` and styled using `Bootstrap`, this project demonstrates the use of React components, props, state, lifecycle methods, and routing.
 
 ---
 
-## Learn More
+## 📌 Features
 
-- [React Documentation](https://reactjs.org/)
-- [Create React App Guide](https://facebook.github.io/create-react-app/docs/getting-started)
+- 🔄 Real-time news fetching from NewsAPI
+- 📂 Category-wise navigation (Business, Sports, Entertainment, Technology, etc.)
+- 🖼️ Responsive and modern UI with Bootstrap
+- 📚 Organized component-based architecture
+- 🌐 Deployable via GitHub Pages
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **Bootstrap 5**
+- **News API**
+- **GitHub Pages** (for deployment)
+
+---
+
+## 🖼️ Screenshots
+
+
+### 🏠 Home Page  
+![Home](./src/components/images/home.png)
+
+### 💼 Business News  
+![Business](./src/components/images/business.png)
+
+### 🎬 Entertainment News  
+![Entertainment](./src/components/images/entertainment.png)
+
+### 🏏 Sports News  
+![Sports](./src/components/images/sports.png)
+
+### 💻 Technology News  
+![Technology](./src/components/images/technology.png)
+
+
+
