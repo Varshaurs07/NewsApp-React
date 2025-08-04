@@ -49,11 +49,15 @@ export class News extends Component {
     this.setState({page: this.state.page + 1});
     this.updateNews();
   }
+  capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+
   render() {
     console.log("Rendering with articles:", this.state.articles);
     return (
       <div className="container my-3">
-        <h1 className="text-center" style={{margin: '35px 0px'}}>NewsApp - Top Headlines</h1>
+        <h1 className="text-center" style={{margin: '35px 0px'}}>NewsApp - Top {this.capitalizeFirstLetter(this.props.category)} Headlines</h1>
         {this.state.loading && <Spinner/>}
         <div className="row">
         {!this.state.loading && this.state.articles?.map((element)=>{
